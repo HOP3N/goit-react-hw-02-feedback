@@ -11,7 +11,7 @@ export class App extends Component {
     bad: 0,
   };
 
-  handleFeedback = (e) => {
+  handleFeedback = e => {
     if (e === 'Good') {
       this.setState({ good: this.state.good + 1 });
     } else if (e === 'Neutral') {
@@ -42,11 +42,11 @@ export class App extends Component {
           flexDirection: 'column',
           justifyContent: 'center',
           alignItems: 'center',
-          fontSize: 32,
-          color: '#000',
+          fontSize: 40,
+          color: '#010101',
         }}
       >
-        <Section title="Please leave a feedback">
+        <Section title="Please leave feedback">
           <FeedbackOptions
             options={['Good', 'Neutral', 'Bad']}
             onLeaveFeedback={this.handleFeedback}

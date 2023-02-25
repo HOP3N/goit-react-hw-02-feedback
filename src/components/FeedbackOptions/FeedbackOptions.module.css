@@ -11,7 +11,7 @@
   cursor: pointer;
   display: inline-flex;
   fill: #000;
-  font-family: Montserrat,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 16px;
   font-weight: 600;
   height: 48px;
@@ -34,19 +34,19 @@
 }
 
 .feedbackBtn:hover {
-  border-color: skyblue;
-  color: skyblue;
-  fill: skyblue;
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
 }
 
 .feedbackBtn:active {
-  border-color: skyblue;
-  color: skyblue;
-  fill: skyblue;
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
 }
 
 .feedbackBtn:nth-of-type(even) {
-    margin: auto 80px;
+    margin: auto 5rem;
 }
 
 @media (min-width: 768px) {
